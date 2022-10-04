@@ -1,0 +1,128 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family:sans-serif;
+    
+}
+
+
+.logo{
+
+    background-image:url('imagens/img backgroud praia/fundo-da-praia copia cortada.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    font-weight: bold;
+    
+}
+
+
+h1{
+    background:#8787d874; 
+    text-align: center;
+}
+
+.rodape{
+    text-align: center;
+    font-family: verdana;
+    color: #0c0cf48f;
+    margin-top:10%;  
+    font-size: small;  
+}
+
+/* Incio da pagina destino*/
+
+
+.galeria-dest {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    text-align: center;
+    
+    
+  
+  }
+div.galeria-dest:hover {
+    border: 1px solid #777;
+    
+  }
+  
+  
+.navbar-list {
+    width: auto;
+    height: auto;
+    margin: 50px;
+    padding: 0;
+    
+    
+  }
+  
+  
+.rod-destino{
+    text-align: center;
+    font-family: verdana;
+    color: #0c0cf48f;
+    margin-top:10%;
+    font-size: small;    
+      
+}
+/*inicio da pagina promoções*/
+
+
+.galeria-prm{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    float: left;
+    text-align: center;
+     
+    
+}
+div.galeria-prm:hover {
+    border: 1px solid #777;
+  }
+  
+.rod-prm{
+    text-align: center;
+    font-family: verdana;
+    color: #0c0cf48f;
+    margin-top:10%;
+    font-size: small; 
+
+}
+
+
+  /*Inico da pagina contatos*/
+
+
+  .galeria-cont{
+    margin: 20px;
+    padding: 20px;
+    border:0 solid #ccc;
+    float: left;
+    text-align: center;
+  }
+  
+  div.galeria-cont:hover {
+    border: 1px solid #777577;
+  }
+
+  .rod-cont{
+    text-align: center;
+    font-family: verdana;
+    color: #0c0cf48f;
+    margin-top:20%; 
+    font-size: small;  
+    
+  }
+
+@media screen and (max-width: 700px){
+       div, nav, a, ul{
+        width: 100%;
+        display: block;     
+
+ }
+ 
+ }
